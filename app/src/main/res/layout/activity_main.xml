@@ -7,12 +7,55 @@
     android:background="#081929"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/bar"
+        app:layout_constraintBottom_toTopOf="@+id/earthmoon"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:id="@+id/profile"
+            android:src="@drawable/id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Saira"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintStart_toEndOf="@id/profile"
+            app:layout_constraintBottom_toBottomOf="@+id/profile"
+            app:layout_constraintEnd_toStartOf="@+id/log_out"
+            app:layout_constraintTop_toTopOf="@+id/profile" />
+
+        <ImageView
+            android:id="@+id/log_out"
+            android:layout_width="60dp"
+
+            android:layout_height="60dp"
+            android:src="@drawable/logout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/earthmoon"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/earth"/>
+        android:src="@drawable/earth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/recyclerview"
+        app:layout_constraintTop_toBottomOf="@id/bar" />
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -28,10 +71,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Saved Countries"
-        android:textColor="#ffc800"
         android:textAlignment="center"
+        android:textColor="#ffc800"
         android:textSize="24dp"
-        app:layout_constraintTop_toBottomOf="@id/earthmoon"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/recyclerview"
+        app:layout_constraintTop_toBottomOf="@id/earthmoon" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_add_circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

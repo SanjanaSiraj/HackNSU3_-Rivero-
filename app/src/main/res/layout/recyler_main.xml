@@ -10,7 +10,7 @@
         android:layout_height="200dp"
         android:orientation="vertical"
         android:background="@drawable/border"
-        android:weightSum="6">
+        android:weightSum="6.5">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -35,6 +35,128 @@
                 android:paddingTop="10dp"
                 />
         </LinearLayout>
-    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Population"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="POL"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Erosion Rate"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="ER"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Estimated Loss"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="EL"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Deadline"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Deadline"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
 
 </androidx.cardview.widget.CardView>
