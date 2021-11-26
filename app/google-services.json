@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494985521393",
+    "project_id": "nsu-hackathon",
+    "storage_bucket": "nsu-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494985521393:android:f6507467bf6383e73b6150",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494985521393-e98a42pk142dvtq9esjg85g218d5cfo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeKftpeXv43GzPybmlJ6AC3wX1LtngPwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494985521393-e98a42pk142dvtq9esjg85g218d5cfo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

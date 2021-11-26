@@ -82,6 +82,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/ic_baseline_add_circle_24"
+        android:id="@+id/addRegion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recyclerview"
         app:layout_constraintEnd_toEndOf="parent"
